@@ -19,6 +19,11 @@
 		75EE4F9118BB6C68001FD840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7918BB6C68001FD840 /* UIKit.framework */; };
 		75EE4F9918BB6C68001FD840 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75EE4F9718BB6C68001FD840 /* InfoPlist.strings */; };
 		75EE4F9B18BB6C68001FD840 /* iOSJuniorApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE4F9A18BB6C68001FD840 /* iOSJuniorApplicationTests.m */; };
+		75EE4FAB18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE4FAA18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m */; };
+		75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE4FAD18BB74F2001FD840 /* NibLoadedViewController.m */; };
+		75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EE4FAF18BB751C001FD840 /* NibLoadedView.xib */; };
+		75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */; };
+		75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +53,14 @@
 		75EE4F9618BB6C68001FD840 /* iOSJuniorApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSJuniorApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		75EE4F9818BB6C68001FD840 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75EE4F9A18BB6C68001FD840 /* iOSJuniorApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSJuniorApplicationTests.m; sourceTree = "<group>"; };
+		75EE4FA918BB6E9B001FD840 /* ProgramaticallyLoadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProgramaticallyLoadingViewController.h; path = Classes/ViewControllers/ProgramaticallyLoadingViewController.h; sourceTree = "<group>"; };
+		75EE4FAA18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProgramaticallyLoadingViewController.m; path = Classes/ViewControllers/ProgramaticallyLoadingViewController.m; sourceTree = "<group>"; };
+		75EE4FAC18BB74F2001FD840 /* NibLoadedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NibLoadedViewController.h; path = Classes/ViewControllers/NibLoadedViewController.h; sourceTree = "<group>"; };
+		75EE4FAD18BB74F2001FD840 /* NibLoadedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NibLoadedViewController.m; path = Classes/ViewControllers/NibLoadedViewController.m; sourceTree = "<group>"; };
+		75EE4FAF18BB751C001FD840 /* NibLoadedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NibLoadedView.xib; path = Resources/Nibs/NibLoadedView.xib; sourceTree = "<group>"; };
+		75EE4FB118BB7BAD001FD840 /* StoryBoardLoadedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryBoardLoadedViewController.h; path = Classes/ViewControllers/StoryBoardLoadedViewController.h; sourceTree = "<group>"; };
+		75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryBoardLoadedViewController.m; path = Classes/ViewControllers/StoryBoardLoadedViewController.m; sourceTree = "<group>"; };
+		75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryBoard.storyboard; path = Resources/StoryBoards/MainStoryBoard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +164,7 @@
 			children = (
 				75EE4FA818BB6D9D001FD840 /* Images */,
 				75EE4FA718BB6D8F001FD840 /* Nibs */,
+				75EE4FB418BB7C01001FD840 /* StoryBoards */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -166,6 +180,12 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75EE4FA918BB6E9B001FD840 /* ProgramaticallyLoadingViewController.h */,
+				75EE4FAA18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m */,
+				75EE4FAC18BB74F2001FD840 /* NibLoadedViewController.h */,
+				75EE4FAD18BB74F2001FD840 /* NibLoadedViewController.m */,
+				75EE4FB118BB7BAD001FD840 /* StoryBoardLoadedViewController.h */,
+				75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +193,7 @@
 		75EE4FA718BB6D8F001FD840 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
+				75EE4FAF18BB751C001FD840 /* NibLoadedView.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -182,6 +203,14 @@
 			children = (
 			);
 			name = Images;
+			sourceTree = "<group>";
+		};
+		75EE4FB418BB7C01001FD840 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */,
+			);
+			name = StoryBoards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +288,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */,
 				75EE4F8018BB6C68001FD840 /* InfoPlist.strings in Resources */,
+				75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */,
 				75EE4F8818BB6C68001FD840 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +311,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75EE4F8618BB6C68001FD840 /* AppDelegate.m in Sources */,
+				75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */,
+				75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */,
+				75EE4FAB18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m in Sources */,
 				75EE4F8218BB6C68001FD840 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
