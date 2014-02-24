@@ -107,6 +107,8 @@
 		75EE4F7B18BB6C68001FD840 /* iOSJuniorApplication */ = {
 			isa = PBXGroup;
 			children = (
+				75EE4FA518BB6CCE001FD840 /* Classes */,
+				75EE4FA418BB6CC7001FD840 /* Resources */,
 				75EE4F8418BB6C68001FD840 /* AppDelegate.h */,
 				75EE4F8518BB6C68001FD840 /* AppDelegate.m */,
 				75EE4F8718BB6C68001FD840 /* Images.xcassets */,
@@ -142,6 +144,44 @@
 				75EE4F9718BB6C68001FD840 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75EE4FA418BB6CC7001FD840 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75EE4FA818BB6D9D001FD840 /* Images */,
+				75EE4FA718BB6D8F001FD840 /* Nibs */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75EE4FA518BB6CCE001FD840 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				75EE4FA618BB6CFD001FD840 /* ViewControllers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75EE4FA718BB6D8F001FD840 /* Nibs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Nibs;
+			sourceTree = "<group>";
+		};
+		75EE4FA818BB6D9D001FD840 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
