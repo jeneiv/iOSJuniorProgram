@@ -17,18 +17,10 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    // Using the ProgramaticallyLoadingViewController
-//    ProgramaticallyLoadingViewController * mainViewController = [[ProgramaticallyLoadingViewController alloc] init];
-//    self.window.rootViewController = mainViewController;
-    
-    // Using the NibLoadedViewController
-//    NibLoadedViewController * anotherMainViewController = [[NibLoadedViewController alloc] initWithNibName:@"NibLoadedView" bundle:nil];
-//    self.window.rootViewController = anotherMainViewController;
-    
     // Using storyboard to initialize the controller
-//    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"MainStoryBoard" bundle:nil];
-//    StoryBoardLoadedViewController * yetAnotherViewController = [aStoryBoard instantiateViewControllerWithIdentifier:@"StoryBoardLoadedViewController"];
-//    self.window.rootViewController = yetAnotherViewController;
+    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"MainStoryBoard" bundle:nil];
+    StoryBoardLoadedViewController * yetAnotherViewController = [aStoryBoard instantiateInitialViewController];
+    self.window.rootViewController = yetAnotherViewController;
     
     [self.window makeKeyAndVisible];
     return YES;

@@ -24,6 +24,7 @@
 		75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75EE4FAF18BB751C001FD840 /* NibLoadedView.xib */; };
 		75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */; };
 		75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */; };
+		75EE4FBB18BC9BB8001FD840 /* UIControlDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EE4FBA18BC9BB8001FD840 /* UIControlDemonstrationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,8 @@
 		75EE4FB118BB7BAD001FD840 /* StoryBoardLoadedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StoryBoardLoadedViewController.h; path = Classes/ViewControllers/StoryBoardLoadedViewController.h; sourceTree = "<group>"; };
 		75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StoryBoardLoadedViewController.m; path = Classes/ViewControllers/StoryBoardLoadedViewController.m; sourceTree = "<group>"; };
 		75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MainStoryBoard.storyboard; path = Resources/StoryBoards/MainStoryBoard.storyboard; sourceTree = "<group>"; };
+		75EE4FB918BC9BB8001FD840 /* UIControlDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIControlDemonstrationViewController.h; path = Classes/ViewControllers/UIControlDemonstrationViewController.h; sourceTree = "<group>"; };
+		75EE4FBA18BC9BB8001FD840 /* UIControlDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIControlDemonstrationViewController.m; path = Classes/ViewControllers/UIControlDemonstrationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,12 +183,8 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				75EE4FA918BB6E9B001FD840 /* ProgramaticallyLoadingViewController.h */,
-				75EE4FAA18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m */,
-				75EE4FAC18BB74F2001FD840 /* NibLoadedViewController.h */,
-				75EE4FAD18BB74F2001FD840 /* NibLoadedViewController.m */,
-				75EE4FB118BB7BAD001FD840 /* StoryBoardLoadedViewController.h */,
-				75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */,
+				75EE4FB818BC9B91001FD840 /* UIControlDemonstrationViewController */,
+				75EE4FB718BC9B7B001FD840 /* ViewControllerLoadingExamples */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -211,6 +210,28 @@
 				75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */,
 			);
 			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		75EE4FB718BC9B7B001FD840 /* ViewControllerLoadingExamples */ = {
+			isa = PBXGroup;
+			children = (
+				75EE4FA918BB6E9B001FD840 /* ProgramaticallyLoadingViewController.h */,
+				75EE4FAA18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m */,
+				75EE4FAC18BB74F2001FD840 /* NibLoadedViewController.h */,
+				75EE4FAD18BB74F2001FD840 /* NibLoadedViewController.m */,
+				75EE4FB118BB7BAD001FD840 /* StoryBoardLoadedViewController.h */,
+				75EE4FB218BB7BAD001FD840 /* StoryBoardLoadedViewController.m */,
+			);
+			name = ViewControllerLoadingExamples;
+			sourceTree = "<group>";
+		};
+		75EE4FB818BC9B91001FD840 /* UIControlDemonstrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75EE4FB918BC9BB8001FD840 /* UIControlDemonstrationViewController.h */,
+				75EE4FBA18BC9BB8001FD840 /* UIControlDemonstrationViewController.m */,
+			);
+			name = UIControlDemonstrationViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75EE4FBB18BC9BB8001FD840 /* UIControlDemonstrationViewController.m in Sources */,
 				75EE4F8618BB6C68001FD840 /* AppDelegate.m in Sources */,
 				75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */,
 				75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */,
@@ -515,6 +537,7 @@
 				75EE4FA018BB6C68001FD840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75EE4FA118BB6C68001FD840 /* Build configuration list for PBXNativeTarget "iOSJuniorApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +546,7 @@
 				75EE4FA318BB6C68001FD840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
