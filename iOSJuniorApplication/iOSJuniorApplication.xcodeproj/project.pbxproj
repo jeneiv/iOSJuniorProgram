@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10818BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m */; };
+		75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10B18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m */; };
+		75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */; };
 		75EE4F7618BB6C68001FD840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7518BB6C68001FD840 /* Foundation.framework */; };
 		75EE4F7818BB6C68001FD840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */; };
 		75EE4F7A18BB6C68001FD840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7918BB6C68001FD840 /* UIKit.framework */; };
@@ -38,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75A4C10718BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchHandlingWithTouchCallbacksViewController.h; path = Classes/ViewControllers/TouchHandlingWithTouchCallbacksViewController.h; sourceTree = "<group>"; };
+		75A4C10818BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchHandlingWithTouchCallbacksViewController.m; path = Classes/ViewControllers/TouchHandlingWithTouchCallbacksViewController.m; sourceTree = "<group>"; };
+		75A4C10A18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchHandlingWithGestureRecognizerViewController.h; path = Classes/ViewControllers/TouchHandlingWithGestureRecognizerViewController.h; sourceTree = "<group>"; };
+		75A4C10B18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchHandlingWithGestureRecognizerViewController.m; path = Classes/ViewControllers/TouchHandlingWithGestureRecognizerViewController.m; sourceTree = "<group>"; };
+		75A4C10E18BCD3B900ED8B27 /* TouchHandlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchHandlerView.h; path = Classes/ViewControllers/TouchHandlerView.h; sourceTree = "<group>"; };
+		75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchHandlerView.m; path = Classes/ViewControllers/TouchHandlerView.m; sourceTree = "<group>"; };
 		75EE4F7218BB6C68001FD840 /* iOSJuniorApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJuniorApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EE4F7518BB6C68001FD840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -90,6 +99,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75A4C10618BCD31100ED8B27 /* TouchHandlingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75A4C10D18BCD39A00ED8B27 /* CustomComponents */,
+				75A4C10718BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.h */,
+				75A4C10818BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m */,
+				75A4C10A18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.h */,
+				75A4C10B18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m */,
+			);
+			name = TouchHandlingViewController;
+			sourceTree = "<group>";
+		};
+		75A4C10D18BCD39A00ED8B27 /* CustomComponents */ = {
+			isa = PBXGroup;
+			children = (
+				75A4C10E18BCD3B900ED8B27 /* TouchHandlerView.h */,
+				75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */,
+			);
+			name = CustomComponents;
+			sourceTree = "<group>";
+		};
 		75EE4F6918BB6C68001FD840 = {
 			isa = PBXGroup;
 			children = (
@@ -183,6 +213,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75A4C10618BCD31100ED8B27 /* TouchHandlingViewController */,
 				75EE4FB818BC9B91001FD840 /* UIControlDemonstrationViewController */,
 				75EE4FB718BC9B7B001FD840 /* ViewControllerLoadingExamples */,
 			);
@@ -333,10 +364,13 @@
 			files = (
 				75EE4FBB18BC9BB8001FD840 /* UIControlDemonstrationViewController.m in Sources */,
 				75EE4F8618BB6C68001FD840 /* AppDelegate.m in Sources */,
+				75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */,
 				75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */,
+				75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */,
 				75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */,
 				75EE4FAB18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m in Sources */,
 				75EE4F8218BB6C68001FD840 /* main.m in Sources */,
+				75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
