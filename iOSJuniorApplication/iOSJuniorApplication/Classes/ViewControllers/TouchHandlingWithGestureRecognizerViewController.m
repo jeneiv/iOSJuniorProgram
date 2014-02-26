@@ -35,4 +35,12 @@
     NSLog(@"Long press recognized on grey view");
 }
 
+- (IBAction)handleTap:(UITapGestureRecognizer *)sender {
+    NSLog(@"Double Two finger Tap recognized");
+}
+
+- (IBAction)handlePinch:(UIPinchGestureRecognizer *)sender {
+    NSLog(@"Pinch recognized with scale: %.2f, velocity: %.2f", sender.scale, sender.velocity);
+}
+
 @end
