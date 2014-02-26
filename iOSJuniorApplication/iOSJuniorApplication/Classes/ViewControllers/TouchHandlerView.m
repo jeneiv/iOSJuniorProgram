@@ -12,6 +12,9 @@
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     NSLog(@"%@ touchesBegan", NSStringFromClass([self class]));
+    UITouch *touch = [touches anyObject];
+    CGPoint touchLocation = [touch locationInView:touch.view];
+    NSLog(@"%@ Touch location in view: %@", NSStringFromClass([self class]), [NSValue valueWithCGPoint:touchLocation]);
 }
 
 - (void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event {
