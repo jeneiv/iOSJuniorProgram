@@ -10,6 +10,11 @@
 		75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10818BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m */; };
 		75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10B18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m */; };
 		75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */; };
+		75A4C11618BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A4C11518BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib */; };
+		75A4C11818BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A4C11718BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib */; };
+		75A4C11C18BF756100ED8B27 /* ViewResizingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C11B18BF756100ED8B27 /* ViewResizingViewController.m */; };
+		75A4C11F18BF788100ED8B27 /* image_mask_geography.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A4C11D18BF788100ED8B27 /* image_mask_geography.png */; };
+		75A4C12018BF788100ED8B27 /* image_mask_geography@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A4C11E18BF788100ED8B27 /* image_mask_geography@2x.png */; };
 		75EE4F7618BB6C68001FD840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7518BB6C68001FD840 /* Foundation.framework */; };
 		75EE4F7818BB6C68001FD840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */; };
 		75EE4F7A18BB6C68001FD840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7918BB6C68001FD840 /* UIKit.framework */; };
@@ -47,6 +52,12 @@
 		75A4C10B18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchHandlingWithGestureRecognizerViewController.m; path = Classes/ViewControllers/TouchHandlingWithGestureRecognizerViewController.m; sourceTree = "<group>"; };
 		75A4C10E18BCD3B900ED8B27 /* TouchHandlerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchHandlerView.h; path = Classes/ViewControllers/TouchHandlerView.h; sourceTree = "<group>"; };
 		75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchHandlerView.m; path = Classes/ViewControllers/TouchHandlerView.m; sourceTree = "<group>"; };
+		75A4C11518BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LayoutUsingAutoResizeMaskView.xib; path = Resources/Nibs/LayoutUsingAutoResizeMaskView.xib; sourceTree = "<group>"; };
+		75A4C11718BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayoutUsingAutoLayoutView.xib; sourceTree = "<group>"; };
+		75A4C11A18BF756100ED8B27 /* ViewResizingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewResizingViewController.h; path = Classes/ViewControllers/ViewResizingViewController.h; sourceTree = "<group>"; };
+		75A4C11B18BF756100ED8B27 /* ViewResizingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewResizingViewController.m; path = Classes/ViewControllers/ViewResizingViewController.m; sourceTree = "<group>"; };
+		75A4C11D18BF788100ED8B27 /* image_mask_geography.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image_mask_geography.png; path = Resources/Images/image_mask_geography.png; sourceTree = "<group>"; };
+		75A4C11E18BF788100ED8B27 /* image_mask_geography@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "image_mask_geography@2x.png"; path = "Resources/Images/image_mask_geography@2x.png"; sourceTree = "<group>"; };
 		75EE4F7218BB6C68001FD840 /* iOSJuniorApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJuniorApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EE4F7518BB6C68001FD840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +129,15 @@
 				75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */,
 			);
 			name = CustomComponents;
+			sourceTree = "<group>";
+		};
+		75A4C11918BF752500ED8B27 /* ViewResizingViewController */ = {
+			isa = PBXGroup;
+			children = (
+				75A4C11A18BF756100ED8B27 /* ViewResizingViewController.h */,
+				75A4C11B18BF756100ED8B27 /* ViewResizingViewController.m */,
+			);
+			name = ViewResizingViewController;
 			sourceTree = "<group>";
 		};
 		75EE4F6918BB6C68001FD840 = {
@@ -213,6 +233,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75A4C11918BF752500ED8B27 /* ViewResizingViewController */,
 				75A4C10618BCD31100ED8B27 /* TouchHandlingViewController */,
 				75EE4FB818BC9B91001FD840 /* UIControlDemonstrationViewController */,
 				75EE4FB718BC9B7B001FD840 /* ViewControllerLoadingExamples */,
@@ -224,6 +245,8 @@
 			isa = PBXGroup;
 			children = (
 				75EE4FAF18BB751C001FD840 /* NibLoadedView.xib */,
+				75A4C11518BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib */,
+				75A4C11718BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -231,6 +254,8 @@
 		75EE4FA818BB6D9D001FD840 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				75A4C11D18BF788100ED8B27 /* image_mask_geography.png */,
+				75A4C11E18BF788100ED8B27 /* image_mask_geography@2x.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -340,10 +365,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A4C11F18BF788100ED8B27 /* image_mask_geography.png in Resources */,
+				75A4C11818BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib in Resources */,
 				75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */,
+				75A4C12018BF788100ED8B27 /* image_mask_geography@2x.png in Resources */,
 				75EE4F8018BB6C68001FD840 /* InfoPlist.strings in Resources */,
 				75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */,
 				75EE4F8818BB6C68001FD840 /* Images.xcassets in Resources */,
+				75A4C11618BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -364,6 +393,7 @@
 			files = (
 				75EE4FBB18BC9BB8001FD840 /* UIControlDemonstrationViewController.m in Sources */,
 				75EE4F8618BB6C68001FD840 /* AppDelegate.m in Sources */,
+				75A4C11C18BF756100ED8B27 /* ViewResizingViewController.m in Sources */,
 				75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */,
 				75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */,
 				75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */,
