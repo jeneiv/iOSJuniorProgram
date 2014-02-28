@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A3D44118C0AE98008FA942 /* ViewControllerPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D44018C0AE98008FA942 /* ViewControllerPresentationViewController.m */; };
+		75A3D44418C0B7F5008FA942 /* ModallyPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D44318C0B7F5008FA942 /* ModallyPresentedViewController.m */; };
+		75A3D44618C0B809008FA942 /* ModallyPresentedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44518C0B809008FA942 /* ModallyPresentedView.xib */; };
+		75A3D44818C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44718C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard */; };
+		75A3D44A18C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44918C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard */; };
+		75A3D44F18C0BF51008FA942 /* tabbarIconList.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44B18C0BF51008FA942 /* tabbarIconList.png */; };
+		75A3D45018C0BF51008FA942 /* tabbarIconList@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44C18C0BF51008FA942 /* tabbarIconList@2x.png */; };
+		75A3D45118C0BF51008FA942 /* tabbarIconSettings.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44D18C0BF51008FA942 /* tabbarIconSettings.png */; };
+		75A3D45218C0BF51008FA942 /* tabbarIconSettings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44E18C0BF51008FA942 /* tabbarIconSettings@2x.png */; };
 		75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10818BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m */; };
 		75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10B18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m */; };
 		75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A4C10F18BCD3B900ED8B27 /* TouchHandlerView.m */; };
@@ -46,6 +55,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75A3D43F18C0AE98008FA942 /* ViewControllerPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerPresentationViewController.h; path = Classes/ViewControllers/ViewControllerPresentationViewController.h; sourceTree = "<group>"; };
+		75A3D44018C0AE98008FA942 /* ViewControllerPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerPresentationViewController.m; path = Classes/ViewControllers/ViewControllerPresentationViewController.m; sourceTree = "<group>"; };
+		75A3D44218C0B7F5008FA942 /* ModallyPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModallyPresentedViewController.h; path = Classes/ViewControllers/ModallyPresentedViewController.h; sourceTree = "<group>"; };
+		75A3D44318C0B7F5008FA942 /* ModallyPresentedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ModallyPresentedViewController.m; path = Classes/ViewControllers/ModallyPresentedViewController.m; sourceTree = "<group>"; };
+		75A3D44518C0B809008FA942 /* ModallyPresentedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ModallyPresentedView.xib; path = Resources/Nibs/ModallyPresentedView.xib; sourceTree = "<group>"; };
+		75A3D44718C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = NavigationControllerStoryBoard.storyboard; path = Resources/StoryBoards/NavigationControllerStoryBoard.storyboard; sourceTree = "<group>"; };
+		75A3D44918C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = TabBarControllerStoryBoard.storyboard; path = Resources/StoryBoards/TabBarControllerStoryBoard.storyboard; sourceTree = "<group>"; };
+		75A3D44B18C0BF51008FA942 /* tabbarIconList.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbarIconList.png; path = Resources/Images/tabbarIconList.png; sourceTree = "<group>"; };
+		75A3D44C18C0BF51008FA942 /* tabbarIconList@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbarIconList@2x.png"; path = "Resources/Images/tabbarIconList@2x.png"; sourceTree = "<group>"; };
+		75A3D44D18C0BF51008FA942 /* tabbarIconSettings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabbarIconSettings.png; path = Resources/Images/tabbarIconSettings.png; sourceTree = "<group>"; };
+		75A3D44E18C0BF51008FA942 /* tabbarIconSettings@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "tabbarIconSettings@2x.png"; path = "Resources/Images/tabbarIconSettings@2x.png"; sourceTree = "<group>"; };
 		75A4C10718BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchHandlingWithTouchCallbacksViewController.h; path = Classes/ViewControllers/TouchHandlingWithTouchCallbacksViewController.h; sourceTree = "<group>"; };
 		75A4C10818BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TouchHandlingWithTouchCallbacksViewController.m; path = Classes/ViewControllers/TouchHandlingWithTouchCallbacksViewController.m; sourceTree = "<group>"; };
 		75A4C10A18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TouchHandlingWithGestureRecognizerViewController.h; path = Classes/ViewControllers/TouchHandlingWithGestureRecognizerViewController.h; sourceTree = "<group>"; };
@@ -110,6 +130,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75A3D43E18C09C0A008FA942 /* ViewControllerPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				75A3D43F18C0AE98008FA942 /* ViewControllerPresentationViewController.h */,
+				75A3D44018C0AE98008FA942 /* ViewControllerPresentationViewController.m */,
+				75A3D44218C0B7F5008FA942 /* ModallyPresentedViewController.h */,
+				75A3D44318C0B7F5008FA942 /* ModallyPresentedViewController.m */,
+			);
+			name = ViewControllerPresentation;
+			sourceTree = "<group>";
+		};
 		75A4C10618BCD31100ED8B27 /* TouchHandlingViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +264,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75A3D43E18C09C0A008FA942 /* ViewControllerPresentation */,
 				75A4C11918BF752500ED8B27 /* ViewResizingViewController */,
 				75A4C10618BCD31100ED8B27 /* TouchHandlingViewController */,
 				75EE4FB818BC9B91001FD840 /* UIControlDemonstrationViewController */,
@@ -247,6 +279,7 @@
 				75EE4FAF18BB751C001FD840 /* NibLoadedView.xib */,
 				75A4C11518BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib */,
 				75A4C11718BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib */,
+				75A3D44518C0B809008FA942 /* ModallyPresentedView.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -254,6 +287,10 @@
 		75EE4FA818BB6D9D001FD840 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				75A3D44B18C0BF51008FA942 /* tabbarIconList.png */,
+				75A3D44C18C0BF51008FA942 /* tabbarIconList@2x.png */,
+				75A3D44D18C0BF51008FA942 /* tabbarIconSettings.png */,
+				75A3D44E18C0BF51008FA942 /* tabbarIconSettings@2x.png */,
 				75A4C11D18BF788100ED8B27 /* image_mask_geography.png */,
 				75A4C11E18BF788100ED8B27 /* image_mask_geography@2x.png */,
 			);
@@ -264,6 +301,8 @@
 			isa = PBXGroup;
 			children = (
 				75EE4FB518BB7C41001FD840 /* MainStoryBoard.storyboard */,
+				75A3D44718C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard */,
+				75A3D44918C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -367,12 +406,19 @@
 			files = (
 				75A4C11F18BF788100ED8B27 /* image_mask_geography.png in Resources */,
 				75A4C11818BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib in Resources */,
+				75A3D44F18C0BF51008FA942 /* tabbarIconList.png in Resources */,
 				75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */,
+				75A3D45018C0BF51008FA942 /* tabbarIconList@2x.png in Resources */,
+				75A3D45118C0BF51008FA942 /* tabbarIconSettings.png in Resources */,
 				75A4C12018BF788100ED8B27 /* image_mask_geography@2x.png in Resources */,
 				75EE4F8018BB6C68001FD840 /* InfoPlist.strings in Resources */,
 				75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */,
+				75A3D44A18C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard in Resources */,
+				75A3D45218C0BF51008FA942 /* tabbarIconSettings@2x.png in Resources */,
 				75EE4F8818BB6C68001FD840 /* Images.xcassets in Resources */,
+				75A3D44618C0B809008FA942 /* ModallyPresentedView.xib in Resources */,
 				75A4C11618BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib in Resources */,
+				75A3D44818C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,7 +445,9 @@
 				75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */,
 				75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */,
 				75EE4FAB18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m in Sources */,
+				75A3D44418C0B7F5008FA942 /* ModallyPresentedViewController.m in Sources */,
 				75EE4F8218BB6C68001FD840 /* main.m in Sources */,
+				75A3D44118C0AE98008FA942 /* ViewControllerPresentationViewController.m in Sources */,
 				75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
