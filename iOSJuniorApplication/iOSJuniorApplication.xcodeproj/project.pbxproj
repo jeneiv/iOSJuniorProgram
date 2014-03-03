@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75340DB318C47C1C00144A7E /* UIViewSubclassesDemonstration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */; };
+		75340DB718C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */; };
+		75340DC918C48B7A00144A7E /* win_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DB918C48B7A00144A7E /* win_1.png */; };
+		75340DCA18C48B7A00144A7E /* win_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DBA18C48B7A00144A7E /* win_2.png */; };
+		75340DCB18C48B7A00144A7E /* win_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DBB18C48B7A00144A7E /* win_3.png */; };
+		75340DCC18C48B7A00144A7E /* win_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DBC18C48B7A00144A7E /* win_4.png */; };
+		75340DCD18C48B7A00144A7E /* win_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DBD18C48B7A00144A7E /* win_5.png */; };
+		75340DCE18C48B7A00144A7E /* win_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DBE18C48B7A00144A7E /* win_6.png */; };
+		75340DCF18C48B7A00144A7E /* win_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DBF18C48B7A00144A7E /* win_7.png */; };
+		75340DD018C48B7A00144A7E /* win_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC018C48B7A00144A7E /* win_8.png */; };
+		75340DD118C48B7A00144A7E /* win_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC118C48B7A00144A7E /* win_9.png */; };
+		75340DD218C48B7A00144A7E /* win_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC218C48B7A00144A7E /* win_10.png */; };
+		75340DD318C48B7A00144A7E /* win_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC318C48B7A00144A7E /* win_11.png */; };
+		75340DD418C48B7A00144A7E /* win_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC418C48B7A00144A7E /* win_12.png */; };
+		75340DD518C48B7A00144A7E /* win_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC518C48B7A00144A7E /* win_13.png */; };
+		75340DD618C48B7A00144A7E /* win_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC618C48B7A00144A7E /* win_14.png */; };
+		75340DD718C48B7A00144A7E /* win_15.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC718C48B7A00144A7E /* win_15.png */; };
+		75340DD818C48B7A00144A7E /* win_16.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DC818C48B7A00144A7E /* win_16.png */; };
 		75A3D44118C0AE98008FA942 /* ViewControllerPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D44018C0AE98008FA942 /* ViewControllerPresentationViewController.m */; };
 		75A3D44418C0B7F5008FA942 /* ModallyPresentedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3D44318C0B7F5008FA942 /* ModallyPresentedViewController.m */; };
 		75A3D44618C0B809008FA942 /* ModallyPresentedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A3D44518C0B809008FA942 /* ModallyPresentedView.xib */; };
@@ -55,6 +73,25 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIViewSubclassesDemonstration.xib; path = Resources/Nibs/UIViewSubclassesDemonstration.xib; sourceTree = "<group>"; };
+		75340DB518C485B500144A7E /* UIViewSubclassesDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewSubclassesDemonstrationViewController.h; path = Classes/ViewControllers/UIViewSubclassesDemonstrationViewController.h; sourceTree = "<group>"; };
+		75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewSubclassesDemonstrationViewController.m; path = Classes/ViewControllers/UIViewSubclassesDemonstrationViewController.m; sourceTree = "<group>"; };
+		75340DB918C48B7A00144A7E /* win_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_1.png; path = Resources/Images/Animation/win_1.png; sourceTree = "<group>"; };
+		75340DBA18C48B7A00144A7E /* win_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_2.png; path = Resources/Images/Animation/win_2.png; sourceTree = "<group>"; };
+		75340DBB18C48B7A00144A7E /* win_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_3.png; path = Resources/Images/Animation/win_3.png; sourceTree = "<group>"; };
+		75340DBC18C48B7A00144A7E /* win_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_4.png; path = Resources/Images/Animation/win_4.png; sourceTree = "<group>"; };
+		75340DBD18C48B7A00144A7E /* win_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_5.png; path = Resources/Images/Animation/win_5.png; sourceTree = "<group>"; };
+		75340DBE18C48B7A00144A7E /* win_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_6.png; path = Resources/Images/Animation/win_6.png; sourceTree = "<group>"; };
+		75340DBF18C48B7A00144A7E /* win_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_7.png; path = Resources/Images/Animation/win_7.png; sourceTree = "<group>"; };
+		75340DC018C48B7A00144A7E /* win_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_8.png; path = Resources/Images/Animation/win_8.png; sourceTree = "<group>"; };
+		75340DC118C48B7A00144A7E /* win_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_9.png; path = Resources/Images/Animation/win_9.png; sourceTree = "<group>"; };
+		75340DC218C48B7A00144A7E /* win_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_10.png; path = Resources/Images/Animation/win_10.png; sourceTree = "<group>"; };
+		75340DC318C48B7A00144A7E /* win_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_11.png; path = Resources/Images/Animation/win_11.png; sourceTree = "<group>"; };
+		75340DC418C48B7A00144A7E /* win_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_12.png; path = Resources/Images/Animation/win_12.png; sourceTree = "<group>"; };
+		75340DC518C48B7A00144A7E /* win_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_13.png; path = Resources/Images/Animation/win_13.png; sourceTree = "<group>"; };
+		75340DC618C48B7A00144A7E /* win_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_14.png; path = Resources/Images/Animation/win_14.png; sourceTree = "<group>"; };
+		75340DC718C48B7A00144A7E /* win_15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_15.png; path = Resources/Images/Animation/win_15.png; sourceTree = "<group>"; };
+		75340DC818C48B7A00144A7E /* win_16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = win_16.png; path = Resources/Images/Animation/win_16.png; sourceTree = "<group>"; };
 		75A3D43F18C0AE98008FA942 /* ViewControllerPresentationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewControllerPresentationViewController.h; path = Classes/ViewControllers/ViewControllerPresentationViewController.h; sourceTree = "<group>"; };
 		75A3D44018C0AE98008FA942 /* ViewControllerPresentationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewControllerPresentationViewController.m; path = Classes/ViewControllers/ViewControllerPresentationViewController.m; sourceTree = "<group>"; };
 		75A3D44218C0B7F5008FA942 /* ModallyPresentedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModallyPresentedViewController.h; path = Classes/ViewControllers/ModallyPresentedViewController.h; sourceTree = "<group>"; };
@@ -130,6 +167,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75340DB418C4859A00144A7E /* UIViewSubclasses */ = {
+			isa = PBXGroup;
+			children = (
+				75340DB518C485B500144A7E /* UIViewSubclassesDemonstrationViewController.h */,
+				75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */,
+			);
+			name = UIViewSubclasses;
+			sourceTree = "<group>";
+		};
+		75340DB818C48B6B00144A7E /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				75340DB918C48B7A00144A7E /* win_1.png */,
+				75340DBA18C48B7A00144A7E /* win_2.png */,
+				75340DBB18C48B7A00144A7E /* win_3.png */,
+				75340DBC18C48B7A00144A7E /* win_4.png */,
+				75340DBD18C48B7A00144A7E /* win_5.png */,
+				75340DBE18C48B7A00144A7E /* win_6.png */,
+				75340DBF18C48B7A00144A7E /* win_7.png */,
+				75340DC018C48B7A00144A7E /* win_8.png */,
+				75340DC118C48B7A00144A7E /* win_9.png */,
+				75340DC218C48B7A00144A7E /* win_10.png */,
+				75340DC318C48B7A00144A7E /* win_11.png */,
+				75340DC418C48B7A00144A7E /* win_12.png */,
+				75340DC518C48B7A00144A7E /* win_13.png */,
+				75340DC618C48B7A00144A7E /* win_14.png */,
+				75340DC718C48B7A00144A7E /* win_15.png */,
+				75340DC818C48B7A00144A7E /* win_16.png */,
+			);
+			name = Animation;
+			sourceTree = "<group>";
+		};
 		75A3D43E18C09C0A008FA942 /* ViewControllerPresentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +333,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75340DB418C4859A00144A7E /* UIViewSubclasses */,
 				75A3D43E18C09C0A008FA942 /* ViewControllerPresentation */,
 				75A4C11918BF752500ED8B27 /* ViewResizingViewController */,
 				75A4C10618BCD31100ED8B27 /* TouchHandlingViewController */,
@@ -280,6 +350,7 @@
 				75A4C11518BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib */,
 				75A4C11718BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib */,
 				75A3D44518C0B809008FA942 /* ModallyPresentedView.xib */,
+				75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -287,6 +358,7 @@
 		75EE4FA818BB6D9D001FD840 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				75340DB818C48B6B00144A7E /* Animation */,
 				75A3D44B18C0BF51008FA942 /* tabbarIconList.png */,
 				75A3D44C18C0BF51008FA942 /* tabbarIconList@2x.png */,
 				75A3D44D18C0BF51008FA942 /* tabbarIconSettings.png */,
@@ -405,19 +477,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A4C11F18BF788100ED8B27 /* image_mask_geography.png in Resources */,
+				75340DD018C48B7A00144A7E /* win_8.png in Resources */,
+				75340DCD18C48B7A00144A7E /* win_5.png in Resources */,
+				75340DD518C48B7A00144A7E /* win_13.png in Resources */,
 				75A4C11818BF74E600ED8B27 /* LayoutUsingAutoLayoutView.xib in Resources */,
+				75340DCE18C48B7A00144A7E /* win_6.png in Resources */,
+				75340DD318C48B7A00144A7E /* win_11.png in Resources */,
 				75A3D44F18C0BF51008FA942 /* tabbarIconList.png in Resources */,
+				75340DCF18C48B7A00144A7E /* win_7.png in Resources */,
 				75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */,
 				75A3D45018C0BF51008FA942 /* tabbarIconList@2x.png in Resources */,
 				75A3D45118C0BF51008FA942 /* tabbarIconSettings.png in Resources */,
 				75A4C12018BF788100ED8B27 /* image_mask_geography@2x.png in Resources */,
 				75EE4F8018BB6C68001FD840 /* InfoPlist.strings in Resources */,
+				75340DD418C48B7A00144A7E /* win_12.png in Resources */,
+				75340DD718C48B7A00144A7E /* win_15.png in Resources */,
+				75340DC918C48B7A00144A7E /* win_1.png in Resources */,
+				75340DD818C48B7A00144A7E /* win_16.png in Resources */,
+				75340DD218C48B7A00144A7E /* win_10.png in Resources */,
+				75340DD618C48B7A00144A7E /* win_14.png in Resources */,
 				75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */,
 				75A3D44A18C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard in Resources */,
 				75A3D45218C0BF51008FA942 /* tabbarIconSettings@2x.png in Resources */,
 				75EE4F8818BB6C68001FD840 /* Images.xcassets in Resources */,
+				75340DCA18C48B7A00144A7E /* win_2.png in Resources */,
 				75A3D44618C0B809008FA942 /* ModallyPresentedView.xib in Resources */,
+				75340DCB18C48B7A00144A7E /* win_3.png in Resources */,
 				75A4C11618BF74D500ED8B27 /* LayoutUsingAutoResizeMaskView.xib in Resources */,
+				75340DCC18C48B7A00144A7E /* win_4.png in Resources */,
+				75340DD118C48B7A00144A7E /* win_9.png in Resources */,
+				75340DB318C47C1C00144A7E /* UIViewSubclassesDemonstration.xib in Resources */,
 				75A3D44818C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,6 +530,7 @@
 				75EE4F8618BB6C68001FD840 /* AppDelegate.m in Sources */,
 				75A4C11C18BF756100ED8B27 /* ViewResizingViewController.m in Sources */,
 				75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */,
+				75340DB718C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m in Sources */,
 				75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */,
 				75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */,
 				75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */,
