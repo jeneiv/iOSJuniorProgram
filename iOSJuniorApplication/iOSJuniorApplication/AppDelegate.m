@@ -7,10 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "ProgramaticallyLoadingViewController.h"
-#import "NibLoadedViewController.h"
 #import "StoryBoardLoadedViewController.h"
-#import "UIViewSubclassesDemonstrationViewController.h"
 
 @implementation AppDelegate
 
@@ -19,12 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     // Using storyboard to initialize the controller
-//    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"MainStoryBoard" bundle:nil];
-//    StoryBoardLoadedViewController * yetAnotherViewController = [aStoryBoard instantiateInitialViewController];
-//    self.window.rootViewController = yetAnotherViewController;
-    
-    UIViewSubclassesDemonstrationViewController * mainController = [[UIViewSubclassesDemonstrationViewController alloc] initWithNibName:@"UIViewSubclassesDemonstration" bundle:nil];
-    self.window.rootViewController = mainController;
+    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"ScrollViewDemonstrationStoryboard" bundle:nil];
+    StoryBoardLoadedViewController * yetAnotherViewController = [aStoryBoard instantiateInitialViewController];
+    self.window.rootViewController = yetAnotherViewController;
     
     [self.window makeKeyAndVisible];
     return YES;
