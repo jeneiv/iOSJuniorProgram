@@ -58,6 +58,12 @@
 		75B9EDDF18C74AAE00D97BBE /* cell_bg_light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B9EDDB18C74AAE00D97BBE /* cell_bg_light@2x.png */; };
 		75B9EDE218C74CA900D97BBE /* cell_bg_light_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B9EDE018C74CA900D97BBE /* cell_bg_light_red.png */; };
 		75B9EDE318C74CA900D97BBE /* cell_bg_light_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75B9EDE118C74CA900D97BBE /* cell_bg_light_red@2x.png */; };
+		75B9EE4818C9ECDE00D97BBE /* ThreadDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE4718C9ECDE00D97BBE /* ThreadDemonstrationViewController.m */; };
+		75B9EE4A18C9ED1600D97BBE /* ThreadDemonstrationStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75B9EE4918C9ED1600D97BBE /* ThreadDemonstrationStoryBoard.storyboard */; };
+		75B9EE4D18CA06F900D97BBE /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE4C18CA06F900D97BBE /* NSThreadViewController.m */; };
+		75B9EE5118CA096100D97BBE /* CustomThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE5018CA096100D97BBE /* CustomThread.m */; };
+		75B9EE5418CE0B6A00D97BBE /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE5318CE0B6A00D97BBE /* NSOperationViewController.m */; };
+		75B9EE5718CE0D4800D97BBE /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE5618CE0D4800D97BBE /* CustomOperation.m */; };
 		75EE4F7618BB6C68001FD840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7518BB6C68001FD840 /* Foundation.framework */; };
 		75EE4F7818BB6C68001FD840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */; };
 		75EE4F7A18BB6C68001FD840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7918BB6C68001FD840 /* UIKit.framework */; };
@@ -153,6 +159,17 @@
 		75B9EDDB18C74AAE00D97BBE /* cell_bg_light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cell_bg_light@2x.png"; path = "Resources/Images/cell_bg_light@2x.png"; sourceTree = "<group>"; };
 		75B9EDE018C74CA900D97BBE /* cell_bg_light_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cell_bg_light_red.png; path = Resources/Images/cell_bg_light_red.png; sourceTree = "<group>"; };
 		75B9EDE118C74CA900D97BBE /* cell_bg_light_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cell_bg_light_red@2x.png"; path = "Resources/Images/cell_bg_light_red@2x.png"; sourceTree = "<group>"; };
+		75B9EE4618C9ECDE00D97BBE /* ThreadDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThreadDemonstrationViewController.h; path = Classes/ViewControllers/ThreadDemonstrationViewController.h; sourceTree = "<group>"; };
+		75B9EE4718C9ECDE00D97BBE /* ThreadDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThreadDemonstrationViewController.m; path = Classes/ViewControllers/ThreadDemonstrationViewController.m; sourceTree = "<group>"; };
+		75B9EE4918C9ED1600D97BBE /* ThreadDemonstrationStoryBoard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = ThreadDemonstrationStoryBoard.storyboard; path = Resources/StoryBoards/ThreadDemonstrationStoryBoard.storyboard; sourceTree = "<group>"; };
+		75B9EE4B18CA06F900D97BBE /* NSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSThreadViewController.h; path = Classes/ViewControllers/NSThreadViewController.h; sourceTree = "<group>"; };
+		75B9EE4C18CA06F900D97BBE /* NSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSThreadViewController.m; path = Classes/ViewControllers/NSThreadViewController.m; sourceTree = "<group>"; };
+		75B9EE4F18CA096100D97BBE /* CustomThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomThread.h; path = Classes/OtherClasses/CustomThread.h; sourceTree = "<group>"; };
+		75B9EE5018CA096100D97BBE /* CustomThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomThread.m; path = Classes/OtherClasses/CustomThread.m; sourceTree = "<group>"; };
+		75B9EE5218CE0B6A00D97BBE /* NSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSOperationViewController.h; path = Classes/ViewControllers/NSOperationViewController.h; sourceTree = "<group>"; };
+		75B9EE5318CE0B6A00D97BBE /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOperationViewController.m; path = Classes/ViewControllers/NSOperationViewController.m; sourceTree = "<group>"; };
+		75B9EE5518CE0D4800D97BBE /* CustomOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomOperation.h; path = Classes/OtherClasses/CustomOperation.h; sourceTree = "<group>"; };
+		75B9EE5618CE0D4800D97BBE /* CustomOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomOperation.m; path = Classes/OtherClasses/CustomOperation.m; sourceTree = "<group>"; };
 		75EE4F7218BB6C68001FD840 /* iOSJuniorApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJuniorApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EE4F7518BB6C68001FD840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -297,6 +314,31 @@
 			name = ViewResizingViewController;
 			sourceTree = "<group>";
 		};
+		75B9EE4518C9E97900D97BBE /* Threading */ = {
+			isa = PBXGroup;
+			children = (
+				75B9EE4E18CA093700D97BBE /* OtherClasses */,
+				75B9EE4618C9ECDE00D97BBE /* ThreadDemonstrationViewController.h */,
+				75B9EE4718C9ECDE00D97BBE /* ThreadDemonstrationViewController.m */,
+				75B9EE4B18CA06F900D97BBE /* NSThreadViewController.h */,
+				75B9EE4C18CA06F900D97BBE /* NSThreadViewController.m */,
+				75B9EE5218CE0B6A00D97BBE /* NSOperationViewController.h */,
+				75B9EE5318CE0B6A00D97BBE /* NSOperationViewController.m */,
+			);
+			name = Threading;
+			sourceTree = "<group>";
+		};
+		75B9EE4E18CA093700D97BBE /* OtherClasses */ = {
+			isa = PBXGroup;
+			children = (
+				75B9EE4F18CA096100D97BBE /* CustomThread.h */,
+				75B9EE5018CA096100D97BBE /* CustomThread.m */,
+				75B9EE5518CE0D4800D97BBE /* CustomOperation.h */,
+				75B9EE5618CE0D4800D97BBE /* CustomOperation.m */,
+			);
+			name = OtherClasses;
+			sourceTree = "<group>";
+		};
 		75EE4F6918BB6C68001FD840 = {
 			isa = PBXGroup;
 			children = (
@@ -390,6 +432,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				75B9EE4518C9E97900D97BBE /* Threading */,
 				75340DDB18C4A71500144A7E /* UIScrollViewDemonstration */,
 				75340DB418C4859A00144A7E /* UIViewSubclasses */,
 				75A3D43E18C09C0A008FA942 /* ViewControllerPresentation */,
@@ -443,6 +486,7 @@
 				75A3D44718C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard */,
 				75A3D44918C0BEC4008FA942 /* TabBarControllerStoryBoard.storyboard */,
 				75340DD918C4A5F700144A7E /* ScrollViewDemonstrationStoryboard.storyboard */,
+				75B9EE4918C9ED1600D97BBE /* ThreadDemonstrationStoryBoard.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -586,6 +630,7 @@
 				75340DB318C47C1C00144A7E /* UIViewSubclassesDemonstration.xib in Resources */,
 				7561F83618C4ABF200211CDE /* very_tall_pic@2x.png in Resources */,
 				75A3D44818C0BC38008FA942 /* NavigationControllerStoryBoard.storyboard in Resources */,
+				75B9EE4A18C9ED1600D97BBE /* ThreadDemonstrationStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -608,8 +653,11 @@
 				75EE4F8618BB6C68001FD840 /* AppDelegate.m in Sources */,
 				75B9EDD118C4C25400D97BBE /* TextViewViewController.m in Sources */,
 				7561F83018C4AA0400211CDE /* ScrollViewIBViewController.m in Sources */,
+				75B9EE4D18CA06F900D97BBE /* NSThreadViewController.m in Sources */,
+				75B9EE4818C9ECDE00D97BBE /* ThreadDemonstrationViewController.m in Sources */,
 				75A4C11C18BF756100ED8B27 /* ViewResizingViewController.m in Sources */,
 				75A4C11018BCD3B900ED8B27 /* TouchHandlerView.m in Sources */,
+				75B9EE5718CE0D4800D97BBE /* CustomOperation.m in Sources */,
 				75340DB718C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m in Sources */,
 				75EE4FB318BB7BAD001FD840 /* StoryBoardLoadedViewController.m in Sources */,
 				75A4C10918BCD35700ED8B27 /* TouchHandlingWithTouchCallbacksViewController.m in Sources */,
@@ -620,9 +668,11 @@
 				75A3D44418C0B7F5008FA942 /* ModallyPresentedViewController.m in Sources */,
 				75EE4F8218BB6C68001FD840 /* main.m in Sources */,
 				75B9EDD718C747BF00D97BBE /* CustomUITableViewCell.m in Sources */,
+				75B9EE5118CA096100D97BBE /* CustomThread.m in Sources */,
 				75A3D44118C0AE98008FA942 /* ViewControllerPresentationViewController.m in Sources */,
 				75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */,
 				75B9EDD418C72B7000D97BBE /* DynamicTableViewController.m in Sources */,
+				75B9EE5418CE0B6A00D97BBE /* NSOperationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

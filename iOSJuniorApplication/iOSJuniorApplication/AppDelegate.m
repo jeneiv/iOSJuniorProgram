@@ -16,9 +16,8 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     // Using storyboard to initialize the controller
-    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"ScrollViewDemonstrationStoryboard" bundle:nil];
-    StoryBoardLoadedViewController * yetAnotherViewController = [aStoryBoard instantiateInitialViewController];
-    self.window.rootViewController = yetAnotherViewController;
+    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"ThreadDemonstrationStoryBoard" bundle:nil];
+    self.window.rootViewController = [aStoryBoard instantiateInitialViewController];
     
     [self.window makeKeyAndVisible];
     return YES;
