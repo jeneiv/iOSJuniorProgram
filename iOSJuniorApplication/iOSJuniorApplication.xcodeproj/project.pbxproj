@@ -64,6 +64,7 @@
 		75B9EE5118CA096100D97BBE /* CustomThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE5018CA096100D97BBE /* CustomThread.m */; };
 		75B9EE5418CE0B6A00D97BBE /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE5318CE0B6A00D97BBE /* NSOperationViewController.m */; };
 		75B9EE5718CE0D4800D97BBE /* CustomOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE5618CE0D4800D97BBE /* CustomOperation.m */; };
+		75B9EE6E18D334DE00D97BBE /* SynchronizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75B9EE6D18D334DE00D97BBE /* SynchronizationViewController.m */; };
 		75EE4F7618BB6C68001FD840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7518BB6C68001FD840 /* Foundation.framework */; };
 		75EE4F7818BB6C68001FD840 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */; };
 		75EE4F7A18BB6C68001FD840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75EE4F7918BB6C68001FD840 /* UIKit.framework */; };
@@ -170,6 +171,8 @@
 		75B9EE5318CE0B6A00D97BBE /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSOperationViewController.m; path = Classes/ViewControllers/NSOperationViewController.m; sourceTree = "<group>"; };
 		75B9EE5518CE0D4800D97BBE /* CustomOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomOperation.h; path = Classes/OtherClasses/CustomOperation.h; sourceTree = "<group>"; };
 		75B9EE5618CE0D4800D97BBE /* CustomOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomOperation.m; path = Classes/OtherClasses/CustomOperation.m; sourceTree = "<group>"; };
+		75B9EE6C18D334DE00D97BBE /* SynchronizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynchronizationViewController.h; path = Classes/ViewControllers/SynchronizationViewController.h; sourceTree = "<group>"; };
+		75B9EE6D18D334DE00D97BBE /* SynchronizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SynchronizationViewController.m; path = Classes/ViewControllers/SynchronizationViewController.m; sourceTree = "<group>"; };
 		75EE4F7218BB6C68001FD840 /* iOSJuniorApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSJuniorApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EE4F7518BB6C68001FD840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75EE4F7718BB6C68001FD840 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -324,6 +327,8 @@
 				75B9EE4C18CA06F900D97BBE /* NSThreadViewController.m */,
 				75B9EE5218CE0B6A00D97BBE /* NSOperationViewController.h */,
 				75B9EE5318CE0B6A00D97BBE /* NSOperationViewController.m */,
+				75B9EE6C18D334DE00D97BBE /* SynchronizationViewController.h */,
+				75B9EE6D18D334DE00D97BBE /* SynchronizationViewController.m */,
 			);
 			name = Threading;
 			sourceTree = "<group>";
@@ -669,6 +674,7 @@
 				75EE4F8218BB6C68001FD840 /* main.m in Sources */,
 				75B9EDD718C747BF00D97BBE /* CustomUITableViewCell.m in Sources */,
 				75B9EE5118CA096100D97BBE /* CustomThread.m in Sources */,
+				75B9EE6E18D334DE00D97BBE /* SynchronizationViewController.m in Sources */,
 				75A3D44118C0AE98008FA942 /* ViewControllerPresentationViewController.m in Sources */,
 				75A4C10C18BCD38400ED8B27 /* TouchHandlingWithGestureRecognizerViewController.m in Sources */,
 				75B9EDD418C72B7000D97BBE /* DynamicTableViewController.m in Sources */,
