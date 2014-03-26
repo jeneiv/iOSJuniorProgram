@@ -7,7 +7,6 @@
 //
 
 #import "AppDelegate.h"
-#import "StoryBoardLoadedViewController.h"
 
 @implementation AppDelegate
 
@@ -16,7 +15,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     // Using storyboard to initialize the controller
-    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"ThreadDemonstrationStoryBoard" bundle:nil];
+    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"FileHandlingStoryboard" bundle:nil];
     self.window.rootViewController = [aStoryBoard instantiateInitialViewController];
     
     [self.window makeKeyAndVisible];
