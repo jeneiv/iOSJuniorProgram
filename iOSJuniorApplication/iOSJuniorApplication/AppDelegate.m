@@ -15,7 +15,7 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
     // Using storyboard to initialize the controller
-    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"FileHandlingStoryboard" bundle:nil];
+    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"LocalizationDemonstrationStoryboard" bundle:nil];
     self.window.rootViewController = [aStoryBoard instantiateInitialViewController];
     
     [self.window makeKeyAndVisible];

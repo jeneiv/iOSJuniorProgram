@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		7515389F18E1AAE800496FE5 /* FileHandlingDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7515389E18E1AAE800496FE5 /* FileHandlingDemonstrationViewController.m */; };
 		751538A118E1AB3C00496FE5 /* FileHandlingStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751538A018E1AB3C00496FE5 /* FileHandlingStoryboard.storyboard */; };
+		751538B418E430C000496FE5 /* MainStrings.strings in Resources */ = {isa = PBXBuildFile; fileRef = 751538B618E430C000496FE5 /* MainStrings.strings */; };
+		751538B918E43B7600496FE5 /* LocalizationDemonstrationStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 751538B818E43B7600496FE5 /* LocalizationDemonstrationStoryboard.storyboard */; };
+		751538BC18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751538BB18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m */; };
+		751538BF18E43D7800496FE5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 751538C118E43D7800496FE5 /* Localizable.strings */; };
 		75340DB318C47C1C00144A7E /* UIViewSubclassesDemonstration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */; };
 		75340DB718C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */; };
 		75340DC918C48B7A00144A7E /* win_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DB918C48B7A00144A7E /* win_1.png */; };
@@ -101,6 +105,17 @@
 		7515389D18E1AAE800496FE5 /* FileHandlingDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileHandlingDemonstrationViewController.h; path = Classes/ViewControllers/FileHandlingDemonstrationViewController.h; sourceTree = "<group>"; };
 		7515389E18E1AAE800496FE5 /* FileHandlingDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FileHandlingDemonstrationViewController.m; path = Classes/ViewControllers/FileHandlingDemonstrationViewController.m; sourceTree = "<group>"; };
 		751538A018E1AB3C00496FE5 /* FileHandlingStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = FileHandlingStoryboard.storyboard; path = Resources/StoryBoards/FileHandlingStoryboard.storyboard; sourceTree = "<group>"; };
+		751538B218E430A900496FE5 /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		751538B318E430A900496FE5 /* hu-HU */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "hu-HU"; path = "hu-HU.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		751538B718E430C500496FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/MainStrings.strings; sourceTree = "<group>"; };
+		751538B818E43B7600496FE5 /* LocalizationDemonstrationStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LocalizationDemonstrationStoryboard.storyboard; path = Resources/StoryBoards/LocalizationDemonstrationStoryboard.storyboard; sourceTree = "<group>"; };
+		751538BA18E43B9B00496FE5 /* LocalizationDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocalizationDemonstrationViewController.h; path = Classes/ViewControllers/LocalizationDemonstrationViewController.h; sourceTree = "<group>"; };
+		751538BB18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocalizationDemonstrationViewController.m; path = Classes/ViewControllers/LocalizationDemonstrationViewController.m; sourceTree = "<group>"; };
+		751538C018E43D7800496FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		751538C518E4487300496FE5 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/MainStrings.strings; sourceTree = "<group>"; };
+		751538C618E4487300496FE5 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/Localizable.strings; sourceTree = "<group>"; };
+		751538C718E4487300496FE5 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		751538C818E4487300496FE5 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIViewSubclassesDemonstration.xib; path = Resources/Nibs/UIViewSubclassesDemonstration.xib; sourceTree = "<group>"; };
 		75340DB518C485B500144A7E /* UIViewSubclassesDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewSubclassesDemonstrationViewController.h; path = Classes/ViewControllers/UIViewSubclassesDemonstrationViewController.h; sourceTree = "<group>"; };
 		75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewSubclassesDemonstrationViewController.m; path = Classes/ViewControllers/UIViewSubclassesDemonstrationViewController.m; sourceTree = "<group>"; };
@@ -237,6 +252,24 @@
 				7515389E18E1AAE800496FE5 /* FileHandlingDemonstrationViewController.m */,
 			);
 			name = FileHandling;
+			sourceTree = "<group>";
+		};
+		751538AE18E42D7F00496FE5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				751538BA18E43B9B00496FE5 /* LocalizationDemonstrationViewController.h */,
+				751538BB18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		751538AF18E42DAC00496FE5 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				751538B618E430C000496FE5 /* MainStrings.strings */,
+				751538C118E43D7800496FE5 /* Localizable.strings */,
+			);
+			name = Localization;
 			sourceTree = "<group>";
 		};
 		75340DB418C4859A00144A7E /* UIViewSubclasses */ = {
@@ -433,6 +466,7 @@
 		75EE4FA418BB6CC7001FD840 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				751538AF18E42DAC00496FE5 /* Localization */,
 				75EE4FA818BB6D9D001FD840 /* Images */,
 				75EE4FA718BB6D8F001FD840 /* Nibs */,
 				75EE4FB418BB7C01001FD840 /* StoryBoards */,
@@ -451,6 +485,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				751538AE18E42D7F00496FE5 /* Localization */,
 				7515389C18E1AAC900496FE5 /* FileHandling */,
 				75B9EE4518C9E97900D97BBE /* Threading */,
 				75340DDB18C4A71500144A7E /* UIScrollViewDemonstration */,
@@ -508,6 +543,7 @@
 				75340DD918C4A5F700144A7E /* ScrollViewDemonstrationStoryboard.storyboard */,
 				75B9EE4918C9ED1600D97BBE /* ThreadDemonstrationStoryBoard.storyboard */,
 				751538A018E1AB3C00496FE5 /* FileHandlingStoryboard.storyboard */,
+				751538B818E43B7600496FE5 /* LocalizationDemonstrationStoryboard.storyboard */,
 			);
 			name = StoryBoards;
 			sourceTree = "<group>";
@@ -592,6 +628,8 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				"hu-HU",
+				hu,
 			);
 			mainGroup = 75EE4F6918BB6C68001FD840;
 			productRefGroup = 75EE4F7318BB6C68001FD840 /* Products */;
@@ -610,6 +648,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A4C11F18BF788100ED8B27 /* image_mask_geography.png in Resources */,
+				751538BF18E43D7800496FE5 /* Localizable.strings in Resources */,
 				75340DD018C48B7A00144A7E /* win_8.png in Resources */,
 				75340DCD18C48B7A00144A7E /* win_5.png in Resources */,
 				75340DD518C48B7A00144A7E /* win_13.png in Resources */,
@@ -633,8 +672,10 @@
 				75340DD818C48B7A00144A7E /* win_16.png in Resources */,
 				75340DD218C48B7A00144A7E /* win_10.png in Resources */,
 				75340DD618C48B7A00144A7E /* win_14.png in Resources */,
+				751538B918E43B7600496FE5 /* LocalizationDemonstrationStoryboard.storyboard in Resources */,
 				75B9EDDD18C74AAE00D97BBE /* cell_bg_dark@2x.png in Resources */,
 				75EE4FB618BB7C41001FD840 /* MainStoryBoard.storyboard in Resources */,
+				751538B418E430C000496FE5 /* MainStrings.strings in Resources */,
 				75340DDA18C4A5F700144A7E /* ScrollViewDemonstrationStoryboard.storyboard in Resources */,
 				75B9EDDF18C74AAE00D97BBE /* cell_bg_light@2x.png in Resources */,
 				7561F83518C4ABF200211CDE /* very_tall_pic.png in Resources */,
@@ -697,6 +738,7 @@
 				7515389F18E1AAE800496FE5 /* FileHandlingDemonstrationViewController.m in Sources */,
 				75B9EDD418C72B7000D97BBE /* DynamicTableViewController.m in Sources */,
 				75B9EE5418CE0B6A00D97BBE /* NSOperationViewController.m in Sources */,
+				751538BC18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -719,10 +761,32 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		751538B618E430C000496FE5 /* MainStrings.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751538B718E430C500496FE5 /* en */,
+				751538C518E4487300496FE5 /* hu */,
+			);
+			name = MainStrings.strings;
+			path = Resources/Localization;
+			sourceTree = "<group>";
+		};
+		751538C118E43D7800496FE5 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				751538C018E43D7800496FE5 /* en */,
+				751538C618E4487300496FE5 /* hu */,
+			);
+			name = Localizable.strings;
+			path = Resources/Localization;
+			sourceTree = "<group>";
+		};
 		75EE4F7E18BB6C68001FD840 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				75EE4F7F18BB6C68001FD840 /* en */,
+				751538B218E430A900496FE5 /* hu-HU */,
+				751538C718E4487300496FE5 /* hu */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -731,6 +795,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				75EE4F9818BB6C68001FD840 /* en */,
+				751538B318E430A900496FE5 /* hu-HU */,
+				751538C818E4487300496FE5 /* hu */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -888,7 +954,7 @@
 				75EE4F9D18BB6C68001FD840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		75EE4F9E18BB6C68001FD840 /* Build configuration list for PBXNativeTarget "iOSJuniorApplication" */ = {
 			isa = XCConfigurationList;
@@ -897,7 +963,7 @@
 				75EE4FA018BB6C68001FD840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		75EE4FA118BB6C68001FD840 /* Build configuration list for PBXNativeTarget "iOSJuniorApplicationTests" */ = {
 			isa = XCConfigurationList;
@@ -906,7 +972,7 @@
 				75EE4FA318BB6C68001FD840 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
