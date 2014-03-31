@@ -53,7 +53,7 @@
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
-    NSLog(@"AlertViewDelegate -- Button at index #%d pressed", buttonIndex);
+    NSLog(@"AlertViewDelegate -- Button at index #%ld pressed", (long)buttonIndex);
 }
 
 

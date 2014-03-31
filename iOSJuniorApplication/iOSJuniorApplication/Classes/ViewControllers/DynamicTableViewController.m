@@ -97,7 +97,7 @@
 #pragma mark - Table View Delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSLog(@"Row #%d was selected from section #%d", indexPath.row, indexPath.section);
+    NSLog(@"Row #%ld was selected from section #%ld", (long)indexPath.row, (long)indexPath.section);
 }
 
 /*

@@ -28,7 +28,7 @@
 - (void)doSomethingWithTitle:(NSString*)aTitle {
     [_someLock lock];
     for (NSUInteger i = 0; i < 10; ++i) {
-        NSLog(@"%@ (%d)", aTitle, i);
+        NSLog(@"%@ (%lu)", aTitle, (unsigned long)i);
         [NSThread sleepForTimeInterval:1.0f];
     }
     [_someLock unlock];
@@ -41,7 +41,7 @@
         if ([_someLock tryLock]) {
             NSLog(@"Succefully locked the thread (%@)", aTitle);
             for (NSUInteger i = 0; i < 10; ++i) {
-                NSLog(@"%@ (%d)", aTitle, i);
+                NSLog(@"%@ (%lu)", aTitle, (unsigned long)i);
                 [NSThread sleepForTimeInterval:2.0f];
             }
             taskDone = YES;

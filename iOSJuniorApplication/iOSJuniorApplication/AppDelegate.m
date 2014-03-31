@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ErrorHandler.h"
 
 @implementation AppDelegate
 
@@ -14,9 +15,8 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 
-    // Using storyboard to initialize the controller
-    UIStoryboard*  aStoryBoard = [UIStoryboard storyboardWithName:@"LocalizationDemonstrationStoryboard" bundle:nil];
-    self.window.rootViewController = [aStoryBoard instantiateInitialViewController];
+    ErrorHandler * vc = [[ErrorHandler alloc] initWithNibName:@"ErrorHandlingView" bundle:nil];
+    self.window.rootViewController = vc;
     
     [self.window makeKeyAndVisible];
     return YES;

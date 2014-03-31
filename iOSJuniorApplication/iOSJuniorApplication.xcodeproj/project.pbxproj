@@ -14,6 +14,10 @@
 		751538BC18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 751538BB18E43B9B00496FE5 /* LocalizationDemonstrationViewController.m */; };
 		751538BF18E43D7800496FE5 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 751538C118E43D7800496FE5 /* Localizable.strings */; };
 		7515398D18E968F800496FE5 /* localized_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7515398F18E968F800496FE5 /* localized_bg.jpg */; };
+		7515399418E9976900496FE5 /* ErrorSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 7515399318E9976900496FE5 /* ErrorSource.m */; };
+		7515399718E9977A00496FE5 /* ErrorHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 7515399618E9977A00496FE5 /* ErrorHandler.m */; };
+		7515399D18E99A6F00496FE5 /* CustomException.m in Sources */ = {isa = PBXBuildFile; fileRef = 7515399C18E99A6F00496FE5 /* CustomException.m */; };
+		7515399F18E99C1400496FE5 /* ErrorHandlingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7515399E18E99C1400496FE5 /* ErrorHandlingView.xib */; };
 		75340DB318C47C1C00144A7E /* UIViewSubclassesDemonstration.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */; };
 		75340DB718C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */; };
 		75340DC918C48B7A00144A7E /* win_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 75340DB918C48B7A00144A7E /* win_1.png */; };
@@ -117,6 +121,13 @@
 		751538C818E4487300496FE5 /* hu */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hu; path = hu.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7515398E18E968F800496FE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = en; path = en.lproj/localized_bg.jpg; sourceTree = "<group>"; };
 		7515399018E968FB00496FE5 /* hu */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hu; path = hu.lproj/localized_bg.jpg; sourceTree = "<group>"; };
+		7515399218E9976900496FE5 /* ErrorSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorSource.h; path = Classes/OtherClasses/ErrorSource.h; sourceTree = "<group>"; };
+		7515399318E9976900496FE5 /* ErrorSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorSource.m; path = Classes/OtherClasses/ErrorSource.m; sourceTree = "<group>"; };
+		7515399518E9977A00496FE5 /* ErrorHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ErrorHandler.h; path = Classes/OtherClasses/ErrorHandler.h; sourceTree = "<group>"; };
+		7515399618E9977A00496FE5 /* ErrorHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ErrorHandler.m; path = Classes/OtherClasses/ErrorHandler.m; sourceTree = "<group>"; };
+		7515399B18E99A6F00496FE5 /* CustomException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomException.h; path = Classes/OtherClasses/CustomException.h; sourceTree = "<group>"; };
+		7515399C18E99A6F00496FE5 /* CustomException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomException.m; path = Classes/OtherClasses/CustomException.m; sourceTree = "<group>"; };
+		7515399E18E99C1400496FE5 /* ErrorHandlingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ErrorHandlingView.xib; path = Resources/Nibs/ErrorHandlingView.xib; sourceTree = "<group>"; };
 		75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = UIViewSubclassesDemonstration.xib; path = Resources/Nibs/UIViewSubclassesDemonstration.xib; sourceTree = "<group>"; };
 		75340DB518C485B500144A7E /* UIViewSubclassesDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UIViewSubclassesDemonstrationViewController.h; path = Classes/ViewControllers/UIViewSubclassesDemonstrationViewController.h; sourceTree = "<group>"; };
 		75340DB618C485B500144A7E /* UIViewSubclassesDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UIViewSubclassesDemonstrationViewController.m; path = Classes/ViewControllers/UIViewSubclassesDemonstrationViewController.m; sourceTree = "<group>"; };
@@ -271,6 +282,19 @@
 				751538C118E43D7800496FE5 /* Localizable.strings */,
 			);
 			name = Localization;
+			sourceTree = "<group>";
+		};
+		7515399118E9974300496FE5 /* ErrorHandling */ = {
+			isa = PBXGroup;
+			children = (
+				7515399218E9976900496FE5 /* ErrorSource.h */,
+				7515399318E9976900496FE5 /* ErrorSource.m */,
+				7515399B18E99A6F00496FE5 /* CustomException.h */,
+				7515399C18E99A6F00496FE5 /* CustomException.m */,
+				7515399518E9977A00496FE5 /* ErrorHandler.h */,
+				7515399618E9977A00496FE5 /* ErrorHandler.m */,
+			);
+			name = ErrorHandling;
 			sourceTree = "<group>";
 		};
 		75340DB418C4859A00144A7E /* UIViewSubclasses */ = {
@@ -486,6 +510,7 @@
 		75EE4FA618BB6CFD001FD840 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7515399118E9974300496FE5 /* ErrorHandling */,
 				751538AE18E42D7F00496FE5 /* Localization */,
 				7515389C18E1AAC900496FE5 /* FileHandling */,
 				75B9EE4518C9E97900D97BBE /* Threading */,
@@ -509,6 +534,7 @@
 				75A3D44518C0B809008FA942 /* ModallyPresentedView.xib */,
 				75340DB218C47C1C00144A7E /* UIViewSubclassesDemonstration.xib */,
 				7561F83118C4AA2300211CDE /* ScrollViewIBView.xib */,
+				7515399E18E99C1400496FE5 /* ErrorHandlingView.xib */,
 			);
 			name = Nibs;
 			sourceTree = "<group>";
@@ -661,6 +687,7 @@
 				75A3D44F18C0BF51008FA942 /* tabbarIconList.png in Resources */,
 				75340DCF18C48B7A00144A7E /* win_7.png in Resources */,
 				75EE4FB018BB751C001FD840 /* NibLoadedView.xib in Resources */,
+				7515399F18E99C1400496FE5 /* ErrorHandlingView.xib in Resources */,
 				75B9EDE218C74CA900D97BBE /* cell_bg_light_red.png in Resources */,
 				75A3D45018C0BF51008FA942 /* tabbarIconList@2x.png in Resources */,
 				75A3D45118C0BF51008FA942 /* tabbarIconSettings.png in Resources */,
@@ -730,8 +757,11 @@
 				75EE4FAE18BB74F2001FD840 /* NibLoadedViewController.m in Sources */,
 				75EE4FAB18BB6E9B001FD840 /* ProgramaticallyLoadingViewController.m in Sources */,
 				7561F83918C4B97400211CDE /* WebViewViewController.m in Sources */,
+				7515399418E9976900496FE5 /* ErrorSource.m in Sources */,
 				75340DDE18C4A73300144A7E /* MainScrollViewDemonstrationViewController.m in Sources */,
 				75A3D44418C0B7F5008FA942 /* ModallyPresentedViewController.m in Sources */,
+				7515399D18E99A6F00496FE5 /* CustomException.m in Sources */,
+				7515399718E9977A00496FE5 /* ErrorHandler.m in Sources */,
 				75EE4F8218BB6C68001FD840 /* main.m in Sources */,
 				75B9EDD718C747BF00D97BBE /* CustomUITableViewCell.m in Sources */,
 				75B9EE5118CA096100D97BBE /* CustomThread.m in Sources */,
