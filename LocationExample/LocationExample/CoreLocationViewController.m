@@ -50,20 +50,20 @@
     _locationManager.distanceFilter = 100.0;
 }
 
-- (void)locationManager:(CLLocationManager *)manager
-	didUpdateToLocation:(CLLocation *)newLocation
-		   fromLocation:(CLLocation *)oldLocation {
-
-    CLLocationCoordinate2D coordinate = newLocation.coordinate;
-    CLLocationDistance altitude = newLocation.altitude;
-    
-    // Debugging
-    NSLog(@"Recived location update.\nCoords: (%.4f;%.4f)\nAlt: %.4f", coordinate.latitude, coordinate.longitude, altitude);
-    
-    // Zooming ang positioning mapview
-    
-    MKCoordinateRegion mapRegion = MKCoordinateRegionMakeWithDistance(coordinate, 500.0, 500.0);
-    [_mapView setRegion:mapRegion animated:YES];
+- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations {
+    CLLocation * lastLocation = [locations lastObject];
+    if (lastLocation != nil) {
+        CLLocationCoordinate2D coordinate = lastLocation.coordinate;
+        CLLocationDistance altitude = lastLocation.altitude;
+        
+        // Debugging
+        NSLog(@"Recived location update.\nCoords: (%.4f;%.4f)\nAlt: %.4f", coordinate.latitude, coordinate.longitude, altitude);
+        
+        // Zooming ang positioning mapview
+        
+        MKCoordinateRegion mapRegion = MKCoordinateRegionMakeWithDistance(coordinate, 500.0, 500.0);
+        [_mapView setRegion:mapRegion animated:YES];
+    }
 }
 
 #pragma mark - Annotations
