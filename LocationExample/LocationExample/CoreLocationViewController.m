@@ -57,9 +57,17 @@
         
         // Zooming ang positioning mapview
         
-        MKCoordinateRegion mapRegion = MKCoordinateRegionMakeWithDistance(coordinate, 500.0, 500.0);
-        [_mapView setRegion:mapRegion animated:YES];
+        [self moveToCoordinate:coordinate];
     }
+}
+
+- (void)moveToCoordinate:(CLLocationCoordinate2D)aCoordinate {
+    [self moveToCoordinate:aCoordinate spanDistance:500.0];
+}
+
+- (void)moveToCoordinate:(CLLocationCoordinate2D)aCoordinate spanDistance:(CLLocationDistance)aDistance {
+    MKCoordinateRegion mapRegion = MKCoordinateRegionMakeWithDistance(aCoordinate, aDistance, aDistance);
+    [_mapView setRegion:mapRegion animated:YES];
 }
 
 #pragma mark - Annotations
@@ -72,11 +80,6 @@
     anAnnotation.coordinate = CLLocationCoordinate2DMake(37.3308, -122.0307);
     [_mapView addAnnotation:anAnnotation];
     
-    /*
-    MKPinAnnotationView * aPinAnnotation = [[MKPinAnnotationView alloc] initWithAnnotation:anAnnotation reuseIdentifier:@"haburger"];
-    aPinAnnotation.image = [UIImage imageNamed:@"hamburger.png"];
-    [_mapView addAnnotation:aPinAnnotation];
-    */
 }
 
 @end

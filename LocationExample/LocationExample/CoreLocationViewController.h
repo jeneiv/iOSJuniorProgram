@@ -15,4 +15,7 @@
     CLLocationManager * _locationManager;
 }
 
+- (void)moveToCoordinate:(CLLocationCoordinate2D)aCoordinate;
+- (void)moveToCoordinate:(CLLocationCoordinate2D)aCoordinate spanDistance:(CLLocationDistance)aDistance;
+
 @end

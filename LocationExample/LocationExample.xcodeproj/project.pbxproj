@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75A3293219191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3293119191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m */; };
+		75A3293619191CA7003B3E93 /* RestaurantAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3293519191CA7003B3E93 /* RestaurantAnnotation.m */; };
 		75FC915819178E04007E5F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FC915719178E04007E5F32 /* Foundation.framework */; };
 		75FC915A19178E04007E5F32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FC915919178E04007E5F32 /* CoreGraphics.framework */; };
 		75FC915C19178E04007E5F32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FC915B19178E04007E5F32 /* UIKit.framework */; };
@@ -38,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75A3293019191BF9003B3E93 /* MapAnnotationDemonstrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotationDemonstrationViewController.h; sourceTree = "<group>"; };
+		75A3293119191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotationDemonstrationViewController.m; sourceTree = "<group>"; };
+		75A3293419191CA7003B3E93 /* RestaurantAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantAnnotation.h; sourceTree = "<group>"; };
+		75A3293519191CA7003B3E93 /* RestaurantAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantAnnotation.m; sourceTree = "<group>"; };
 		75FC915419178E04007E5F32 /* LocationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FC915719178E04007E5F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75FC915919178E04007E5F32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,8 +100,19 @@
 			children = (
 				75FC919019178E4A007E5F32 /* CoreLocationViewController.h */,
 				75FC919119178E4A007E5F32 /* CoreLocationViewController.m */,
+				75A3293019191BF9003B3E93 /* MapAnnotationDemonstrationViewController.h */,
+				75A3293119191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m */,
 			);
 			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		75A3293319191C8D003B3E93 /* Annotations */ = {
+			isa = PBXGroup;
+			children = (
+				75A3293419191CA7003B3E93 /* RestaurantAnnotation.h */,
+				75A3293519191CA7003B3E93 /* RestaurantAnnotation.m */,
+			);
+			name = Annotations;
 			sourceTree = "<group>";
 		};
 		75FC914B19178E04007E5F32 = {
@@ -133,6 +150,7 @@
 		75FC915D19178E04007E5F32 /* LocationExample */ = {
 			isa = PBXGroup;
 			children = (
+				75A3293319191C8D003B3E93 /* Annotations */,
 				75A3292F19191AE4003B3E93 /* ViewControllers */,
 				75FC91931917B1D3007E5F32 /* Images */,
 				75FC916619178E04007E5F32 /* AppDelegate.h */,
@@ -288,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75A3293619191CA7003B3E93 /* RestaurantAnnotation.m in Sources */,
+				75A3293219191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m in Sources */,
 				75FC919219178E4A007E5F32 /* CoreLocationViewController.m in Sources */,
 				75FC916819178E04007E5F32 /* AppDelegate.m in Sources */,
 				75FC916419178E04007E5F32 /* main.m in Sources */,
