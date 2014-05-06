@@ -7,12 +7,8 @@
 //
 
 #import "CoreLocationViewController.h"
-@import MapKit;
 
-@interface CoreLocationViewController () {
-    __weak IBOutlet MKMapView * _mapView;
-    CLLocationManager * _locationManager;
-}
+@interface CoreLocationViewController () 
 
 @end
 

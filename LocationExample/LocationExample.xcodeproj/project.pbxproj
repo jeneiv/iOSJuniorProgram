@@ -89,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75A3292F19191AE4003B3E93 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				75FC919019178E4A007E5F32 /* CoreLocationViewController.h */,
+				75FC919119178E4A007E5F32 /* CoreLocationViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		75FC914B19178E04007E5F32 = {
 			isa = PBXGroup;
 			children = (
@@ -124,14 +133,13 @@
 		75FC915D19178E04007E5F32 /* LocationExample */ = {
 			isa = PBXGroup;
 			children = (
+				75A3292F19191AE4003B3E93 /* ViewControllers */,
 				75FC91931917B1D3007E5F32 /* Images */,
 				75FC916619178E04007E5F32 /* AppDelegate.h */,
 				75FC916719178E04007E5F32 /* AppDelegate.m */,
 				75FC916919178E04007E5F32 /* Main.storyboard */,
 				75FC916F19178E04007E5F32 /* Images.xcassets */,
 				75FC915E19178E04007E5F32 /* Supporting Files */,
-				75FC919019178E4A007E5F32 /* CoreLocationViewController.h */,
-				75FC919119178E4A007E5F32 /* CoreLocationViewController.m */,
 			);
 			path = LocationExample;
 			sourceTree = "<group>";
@@ -487,6 +495,7 @@
 				75FC918819178E04007E5F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75FC918919178E04007E5F32 /* Build configuration list for PBXNativeTarget "LocationExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +504,7 @@
 				75FC918B19178E04007E5F32 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
