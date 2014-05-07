@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		75A3293219191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3293119191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m */; };
 		75A3293619191CA7003B3E93 /* RestaurantAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A3293519191CA7003B3E93 /* RestaurantAnnotation.m */; };
+		75E70547191A187400202D02 /* bus.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E70545191A187400202D02 /* bus.png */; };
+		75E70548191A187400202D02 /* bus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 75E70546191A187400202D02 /* bus@2x.png */; };
+		75E7054B191A192500202D02 /* BusStopAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 75E7054A191A192500202D02 /* BusStopAnnotation.m */; };
 		75FC915819178E04007E5F32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FC915719178E04007E5F32 /* Foundation.framework */; };
 		75FC915A19178E04007E5F32 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FC915919178E04007E5F32 /* CoreGraphics.framework */; };
 		75FC915C19178E04007E5F32 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75FC915B19178E04007E5F32 /* UIKit.framework */; };
@@ -44,6 +47,10 @@
 		75A3293119191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotationDemonstrationViewController.m; sourceTree = "<group>"; };
 		75A3293419191CA7003B3E93 /* RestaurantAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RestaurantAnnotation.h; sourceTree = "<group>"; };
 		75A3293519191CA7003B3E93 /* RestaurantAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RestaurantAnnotation.m; sourceTree = "<group>"; };
+		75E70545191A187400202D02 /* bus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bus.png; path = Images/bus.png; sourceTree = "<group>"; };
+		75E70546191A187400202D02 /* bus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bus@2x.png"; path = "Images/bus@2x.png"; sourceTree = "<group>"; };
+		75E70549191A192500202D02 /* BusStopAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusStopAnnotation.h; sourceTree = "<group>"; };
+		75E7054A191A192500202D02 /* BusStopAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusStopAnnotation.m; sourceTree = "<group>"; };
 		75FC915419178E04007E5F32 /* LocationExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75FC915719178E04007E5F32 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		75FC915919178E04007E5F32 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -111,6 +118,8 @@
 			children = (
 				75A3293419191CA7003B3E93 /* RestaurantAnnotation.h */,
 				75A3293519191CA7003B3E93 /* RestaurantAnnotation.m */,
+				75E70549191A192500202D02 /* BusStopAnnotation.h */,
+				75E7054A191A192500202D02 /* BusStopAnnotation.m */,
 			);
 			name = Annotations;
 			sourceTree = "<group>";
@@ -194,6 +203,8 @@
 		75FC91931917B1D3007E5F32 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				75E70545191A187400202D02 /* bus.png */,
+				75E70546191A187400202D02 /* bus@2x.png */,
 				75FC91941917B1E0007E5F32 /* hamburger.png */,
 				75FC91951917B1E0007E5F32 /* hamburger@2x.png */,
 			);
@@ -283,9 +294,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75E70547191A187400202D02 /* bus.png in Resources */,
 				75FC917019178E04007E5F32 /* Images.xcassets in Resources */,
 				75FC91971917B1E0007E5F32 /* hamburger@2x.png in Resources */,
 				75FC91961917B1E0007E5F32 /* hamburger.png in Resources */,
+				75E70548191A187400202D02 /* bus@2x.png in Resources */,
 				75FC916219178E04007E5F32 /* InfoPlist.strings in Resources */,
 				75FC916B19178E04007E5F32 /* Main.storyboard in Resources */,
 			);
@@ -307,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A3293619191CA7003B3E93 /* RestaurantAnnotation.m in Sources */,
+				75E7054B191A192500202D02 /* BusStopAnnotation.m in Sources */,
 				75A3293219191BF9003B3E93 /* MapAnnotationDemonstrationViewController.m in Sources */,
 				75FC919219178E4A007E5F32 /* CoreLocationViewController.m in Sources */,
 				75FC916819178E04007E5F32 /* AppDelegate.m in Sources */,

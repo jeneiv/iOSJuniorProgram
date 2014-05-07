@@ -8,6 +8,7 @@
 
 #import "MapAnnotationDemonstrationViewController.h"
 #import "RestaurantAnnotation.h"
+#import "BusStopAnnotation.h"
 
 #define ZERO_THRESHOLD 0.0002
 #define NEAR_ZERO(x) ABS(x) < ZERO_THRESHOLD
@@ -57,6 +58,14 @@
         anAnnotationView.canShowCallout = YES;
         anAnnotationView.leftCalloutAccessoryView = [[UIImageView alloc] initWithImage:restaurantAnnotation.restaurantImage];
     }
+    else if ([annotation isKindOfClass:[BusStopAnnotation class]]) {
+        NSString * busStopIndentifier = @"busStopAnnotation";
+        anAnnotationView = [mapView dequeueReusableAnnotationViewWithIdentifier:busStopIndentifier];
+        if (anAnnotationView == nil) {
+            anAnnotationView = [[MKAnnotationView alloc] initWithAnnotation:annotation reuseIdentifier:busStopIndentifier];
+        }
+        anAnnotationView.image = [UIImage imageNamed:@"bus"];
+    }
     return anAnnotationView;
 }
 
@@ -81,7 +90,7 @@
     MKPointAnnotation * anAnnotation = [[MKPointAnnotation alloc] init];
     anAnnotation.title = @"Budapest";
     anAnnotation.subtitle = @"Center Point of Budapest";
-    anAnnotation.coordinate = CLLocationCoordinate2DMake(47.4925, 19.051389); // 47.4925,19.051389
+    anAnnotation.coordinate = CLLocationCoordinate2DMake(47.4925, 19.051389);
     [_mapView addAnnotation:anAnnotation];
 }
 
@@ -90,9 +99,23 @@
     RestaurantAnnotation * anAnnotation = [[RestaurantAnnotation alloc] init];
     anAnnotation.title = @"Hamburger";
     anAnnotation.subtitle = @"we also give fries ^_^";
-    anAnnotation.coordinate = CLLocationCoordinate2DMake(47.4625, 19.051389); // 47.4925,19.051389
+    anAnnotation.coordinate = CLLocationCoordinate2DMake(47.4625, 19.051389);
     anAnnotation.restaurantImage = [UIImage imageNamed:@"hamburger"];
     [_mapView addAnnotation:anAnnotation];
+}
+
+- (IBAction)adBusStops:(id)sender {
+    NSLog(@"Adding bus stops");
+    BusStopAnnotation * bus12 = [[BusStopAnnotation alloc] init];
+    bus12.title = @"12";
+    bus12.coordinate = CLLocationCoordinate2DMake(47.5125, 19.051389);
+    
+    BusStopAnnotation * bus45 = [[BusStopAnnotation alloc] init];
+    bus45.title = @"45";
+    bus45.coordinate = CLLocationCoordinate2DMake(47.5125, 19.071389);
+    
+    [_mapView addAnnotations:@[bus12, bus45]];
+    
 }
 
 - (void)convert {
